@@ -74,3 +74,26 @@ select {
   background: #f87171;
   color: #0f172a;
 }
+.price-slider{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #cbd5e1  ;
+  
+}
+.price-values{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+
+}
+
+.price-slider input{
+  width: 100%;
+
+  padding: 2px;
+  border-radius: 6px;
+  border: none;
+  color: #0f172a;
+  background: #cbd5e1;
+}
