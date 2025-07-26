@@ -1,0 +1,76 @@
+.filter-sidebar {
+  background: #0f172a;
+  color: #f1f5f9;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  min-width: 260px;
+  height: fit-content;
+  position: sticky;
+  top: 90px;
+}
+
+.filter-sidebar h3 {
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+.filter-block {
+  margin-bottom: 1rem;
+}
+
+.filter-block h4 {
+  margin-bottom: 0.5rem;
+  color: #cbd5e1;
+}
+
+.checkbox {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.price-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.price-inputs input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  color: #0f172a;
+}
+
+select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  color: #0f172a;
+}
+
+.filter-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.apply-btn, .reset-btn {
+  flex: 1;
+  border: none;
+  padding: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.apply-btn {
+  background: #22d3ee;
+  color: #0f172a;
+}
+
+.reset-btn {
+  background: #f87171;
+  color: #0f172a;
+}

@@ -1,0 +1,150 @@
+.about-page {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 5rem;
+  background: #1e293b;
+}
+
+/* Hero Section */
+.about-hero {
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.about-hero .hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  animation: fadeDown 1s ease-in-out;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  animation: fadeUp 1s ease-in-out;
+}
+
+@keyframes fadeDown {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Mission */
+.about-mission {
+  padding: 3rem 2rem;
+  background: #1e293b;
+  text-align: center;
+  color: #ccc;
+}
+
+.about-mission h2 {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+.about-mission p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #f1f5f9;
+  max-width: 1000px;
+  min-width: 200px;
+}
+
+/* Stats */
+.about-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background: #1e293b;
+}
+
+.stats-card {
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.stats-card:hover {
+  transform: scale(1.05);
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+.stats-card h3 {
+  font-size: 2rem;
+  color: #ccc;
+}
+.stats-card p {
+  font-size: 1.1rem;
+  color: #f1f5f9;
+}
+
+/* Team Section */
+.about-team {
+  padding: 3rem 2rem;
+  background: #1e293b;
+  text-align: center;
+}
+
+.about-team h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #38bdf8;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.team-member {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center; 
+  color: #ccc;
+  transition: transform 0.3s ease;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.9);
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}

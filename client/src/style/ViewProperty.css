@@ -1,0 +1,88 @@
+.properties-table {
+  background: #1f2a36;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  animation: fadeSlide 0.4s ease;
+}
+
+.properties-table h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #f39c12;
+  text-align: center;
+}
+
+/* Table Styling */
+.properties-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #151d28;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.properties-table th,
+.properties-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.properties-table th {
+  background: #1f2a36;
+  color: #f39c12;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.properties-table tr:hover td {
+  background: rgba(243, 156, 18, 0.1);
+}
+
+/* Buttons */
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.edit-btn {
+  background: #3498db;
+  color: #fff;
+  margin-right: 8px;
+}
+.edit-btn:hover {
+  background: #2980b9;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+}
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+/* Empty Message */
+.properties-table td[colspan="5"] {
+  text-align: center;
+  color: #bbb;
+  padding: 20px;
+}
+
+/* Animation */
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

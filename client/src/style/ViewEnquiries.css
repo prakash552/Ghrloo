@@ -1,0 +1,56 @@
+.enquiries-wrapper {
+  background: #1f2a36;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeSlide 0.4s ease;
+}
+
+.enquiries-wrapper h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #f39c12;
+}
+
+.enquiries-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #151d28;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.enquiries-table th,
+.enquiries-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+.enquiries-table th {
+  background: #101820;
+  color: #f1c40f;
+}
+
+.enquiries-table tr:hover {
+  background: rgba(243, 156, 18, 0.1);
+}
+
+.delete-btn {
+  background: #e74c3c;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.no-enquiries {
+  text-align: center;
+  color: #aaa;
+  font-style: italic;
+}
