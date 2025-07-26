@@ -6,7 +6,7 @@ import {
   updateProperty as storageUpdate,
   deleteProperty as storageDelete,
   getPropertyById
-} from '../utils/storage';
+} from '../utils/Storage';
 
 const PropertyContext = createContext();
 
