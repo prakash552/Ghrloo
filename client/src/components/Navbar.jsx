@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className={`main-navbar ${isHome && !isScrolled ? 'transparent' : 'scrolled'}`}>
       <div className="nav-logo">
-        <Link to="/">🏡 PrimePropertyHub</Link>
+        <Link to="/">Ghrloo</Link>
       </div>
       <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <NavLink to="/" className={({ isActive }) => isActive ? 'active-link' : ''} onClick={toggleMenu}>Home</NavLink>

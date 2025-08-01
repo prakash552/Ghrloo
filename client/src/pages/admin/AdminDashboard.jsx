@@ -76,7 +76,7 @@ export default function AdminDashboard() {
         {activeTab === 'properties' && <ViewProperties onEdit={openEdit} />}
         {activeTab === 'edit' && editId != null && <EditProperty id={editId} onDone={() => setActiveTab('properties')} />}
         {activeTab === 'enquiries' && <ViewEnquiries />}
-        {activeTab === 'settings' && <p style={{ color: '#fff' }}>Settings coming soon...</p>}
+        {activeTab === 'settings' && <p style={{ color: '#fff' , padding: '20px' , display:'flex', justifyContent :'center', alignItems: 'center'}}>Settings coming soon...</p>}
       </main>
     </div>
   );

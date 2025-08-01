@@ -1,9 +1,11 @@
 .properties-table {
   background: #1f2a36;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   color: #fff;
   animation: fadeSlide 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
 }
 
 .properties-table h2 {
